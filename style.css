@@ -9,4 +9,24 @@ html {
 
 body {
     height: 100vh;
+    background-color: black;
+}
+
+h1{
+    color:aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+h2,p{
+    color: azure;
+    font-size: 20px;
+    margin: 22px;
+    padding: 2px;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    background-color:crimson;
+    color: azure;
 }
