@@ -46,7 +46,7 @@ class vector{
     }
 };
 
-int main()
+void main()
 {
     vector v;
     v.create();
@@ -54,5 +54,5 @@ int main()
     v.display();
     v.multiply();
     v.display();
-    return 0;
+    
 }
