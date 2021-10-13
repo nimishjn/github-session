@@ -1,44 +1,25 @@
-html {
-    font-size: 62.5%;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    height: 100vh;
-    background-color: black;
-}
-
-#heading{ 
-    font-size: 30px;
-    text-decoration: underline;
-    background-color: rgb(35, 226, 162);
-    display: inline-block;
-}
-
-h1{
-    color:aqua;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
-    text-align: center;
-}
-
-h2,p{
-    color: azure;
-    font-size: 20px;
-    margin: 22px;
-    padding: 2px;
-}
-
-button{
-    margin: 20px;
+.details{
+    margin: 20px auto;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 2%;
     padding: 15px;
-    background-color:crimson;
-    color: azure;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+    caret-color: black;
+}
+.details input,label{
+    display: block;
+}
+.details label{
+    margin:5px auto;
+}
+.details input{
+    margin-bottom: 10px;
+    width: 90%;
+}
+.details input:focus{
+    border: 3px solid lightskyblue;
+}
+button{
+    display: block;
+    margin: 10px auto;
 }
